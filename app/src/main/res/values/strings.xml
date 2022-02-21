@@ -26,9 +26,8 @@
     <string name="glamour">볼륨감 있는 체형</string>
     <string name="pet">반려 동물을 키우는</string>
     <string name="more">24개 항목 모두 보기</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="developer_introduce">지원자 특징\nMBTI : ENTJ-T(글램 대표님과 같더라구요)\n선호음식:아이스크림(메로나 좋아합니다)\n좌우명 : 포기는 배추 셀 때나 쓰는 단어다\n남자친구 유무 : 유\n과제하며 느낀 점\n안드로이드의 꽃은 어댑터인 것 같다\n옵저빙을 좀 더 효율적으로 할 순 없었을까 하는 고민\n많이 부족하지만 노력 또 노력해야겠다</string>
+    <string name="developer_introduce">지원자 특징\nMBTI : ENTJ-T(글램 대표님과 같더라구요)\n선호음식:아이스크림(메로나 좋아합니다)\n좌우명 : 포기는 배추 셀 때나 쓰는 단어다\n남자친구 유무 : 유\n과제하며 느낀 점\n어댑터를 좀 더 깊게 이해할 수 있었던 시간\n옵저빙을 좀 더 효율적으로 할 순 없었을까 하는 고민</string>
     <string name="developer_special_things">지원자 특이사항\n과제 하려고 글램 가입 후\n열심히 레이아웃 연구를 하고 있는데\n남자친구가 보더니 지금 뭐하는 짓이냐며 싸웠습니다</string>
     <string name="preparing">준비 중 입니다</string>
 </resources>
