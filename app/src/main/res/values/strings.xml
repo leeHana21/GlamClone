@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">GlamClone</string>
+    <string name="nearby">근처</string>
+    <string name="feed">피드</string>
+    <string name="like">좋아요</string>
+    <string name="today_recommend">오늘의 추천</string>
+    <string name="profile_image_description">다양한 매력을 보여줄 수 있는 사진을 올려주세요.</string>
+    <string name="profile_info_more">더 알아보기</string>
+    <string name="nickname">닉네임</string>
+    <string name="gender">성별</string>
+    <string name="birth">생일</string>
+    <string name="location">위치</string>
+    <string name="introduce">소개</string>
+    <string name="main_introduce">회원님의 매력을 간단하게 소개해주세요</string>
+    <string name="sub_introduce">SNS 아이디 입력시 사용 제한이 있습니다</string>
+    <string name="body">체형</string>
+    <string name="company">직장</string>
+    <string name="job">직업</string>
+    <string name="height">키</string>
+    <string name="grade">학력</string>
+    <string name="school">학교</string>
+    <string name="custom_recommend">맞춤 추천</string>
+    <string name="glam_recommend">글램 추천</string>
+    <string name="select">선택</string>
+    <string name="top_charming">최상위 매력</string>
+    <string name="glamour">볼륨감 있는 체형</string>
+    <string name="pet">반려 동물을 키우는</string>
+    <string name="more">24개 항목 모두 보기</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="developer_introduce">지원자 특징\nMBTI : ENTJ-T(글램 대표님과 같더라구요)\n선호음식:아이스크림(메로나 좋아합니다)\n좌우명 : 포기는 배추 셀 때나 쓰는 단어다\n남자친구 유무 : 유\n과제하며 느낀 점\n안드로이드의 꽃은 어댑터인 것 같다\n옵저빙을 좀 더 효율적으로 할 순 없었을까 하는 고민\n많이 부족하지만 노력 또 노력해야겠다</string>
+    <string name="developer_special_things">지원자 특이사항\n과제 하려고 글램 가입 후\n열심히 레이아웃 연구를 하고 있는데\n남자친구가 보더니 지금 뭐하는 짓이냐며 싸웠습니다</string>
+    <string name="preparing">준비 중 입니다</string>
+</resources>

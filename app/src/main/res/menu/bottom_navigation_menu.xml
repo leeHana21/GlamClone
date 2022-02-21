@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title=""
+        app:labelVisibilityMode="unlabeled" />
+
+    <item
+        android:id="@+id/navigation_video"
+        android:icon="@drawable/live"
+        android:title=""
+        app:labelVisibilityMode="unlabeled" />
+
+    <item
+        android:id="@+id/navigation_like"
+        android:icon="@drawable/station"
+        android:title=""
+        app:labelVisibilityMode="unlabeled" />
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/connection"
+        android:title=""
+        app:labelVisibilityMode="unlabeled" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/more"
+        android:title=""
+        app:labelVisibilityMode="unlabeled" />
+</menu>

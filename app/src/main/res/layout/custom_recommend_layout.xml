@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="40dp"
+        card_view:cardCornerRadius="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="@string/custom_recommend"
+                android:textColor="@color/dark_gray"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_glam_recommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/today"
+                app:layout_constraintRight_toLeftOf="@+id/tv_glam_recommend"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_glam_recommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="0dp"
+                android:text="@string/glam_recommend"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/iv_glam_recommend"
+                app:layout_constraintLeft_toRightOf="@id/iv_glam_recommend"
+                app:layout_constraintTop_toTopOf="@+id/iv_glam_recommend" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:src="@drawable/hot"
+                app:layout_constraintBottom_toBottomOf="@id/tv_glam_recommend"
+                app:layout_constraintLeft_toRightOf="@+id/tv_glam_recommend"
+                app:layout_constraintTop_toTopOf="@id/tv_glam_recommend" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_glam_recommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_round_layout"
+                android:text="@string/select"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_glam_recommend"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/iv_glam_recommend" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_top_charming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/dia"
+                app:layout_constraintRight_toLeftOf="@id/tv_top_charming"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_glam_recommend" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_top_charming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="0dp"
+                android:text="@string/top_charming"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/iv_top_charming"
+                app:layout_constraintLeft_toRightOf="@id/iv_top_charming"
+                app:layout_constraintTop_toTopOf="@+id/iv_top_charming" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:src="@drawable/hot"
+                app:layout_constraintBottom_toBottomOf="@id/tv_top_charming"
+                app:layout_constraintLeft_toRightOf="@+id/tv_top_charming"
+                app:layout_constraintTop_toTopOf="@id/tv_top_charming" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_top_charming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_round_layout"
+                android:text="@string/select"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_top_charming"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/iv_top_charming" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_glamour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/glamour"
+                app:layout_constraintRight_toLeftOf="@id/tv_glamour"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_top_charming" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_glamour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="0dp"
+                android:text="@string/glamour"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/iv_glamour"
+                app:layout_constraintLeft_toRightOf="@id/iv_glamour"
+                app:layout_constraintTop_toTopOf="@+id/iv_glamour" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:src="@drawable/hot"
+                app:layout_constraintBottom_toBottomOf="@id/tv_glamour"
+                app:layout_constraintLeft_toRightOf="@+id/tv_glamour"
+                app:layout_constraintTop_toTopOf="@id/tv_glamour" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_glamour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_round_layout"
+                android:text="@string/select"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_glamour"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/iv_glamour" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_pet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/withpet"
+                app:layout_constraintRight_toLeftOf="@id/tv_pet"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_glamour" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_pet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="0dp"
+                android:text="@string/pet"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/iv_pet"
+                app:layout_constraintLeft_toRightOf="@id/iv_pet"
+                app:layout_constraintTop_toTopOf="@+id/iv_pet" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_pet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_round_layout"
+                android:text="@string/select"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_pet"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/iv_pet" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bt_more"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/more"
+                android:textColor="@color/dark_gray"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>
