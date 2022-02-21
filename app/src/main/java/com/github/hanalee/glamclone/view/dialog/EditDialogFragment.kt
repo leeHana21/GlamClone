@@ -2,10 +2,8 @@ package com.github.hanalee.glamclone.view.dialog
 
 import android.os.Bundle
 import android.util.Log
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.view.Window
+import android.view.*
+import android.view.ViewGroup.*
 import androidx.fragment.app.DialogFragment
 import com.github.hanalee.glamclone.R
 import com.github.hanalee.glamclone.databinding.EditInfoDialogLayoutBinding
@@ -51,6 +49,14 @@ class EditDialogFragment(
 
     fun setDialogListener(dialogListener: CustomDialogListener) {
         customDialogListener = dialogListener
+    }
+
+    override fun onResume() {
+        super.onResume()
+        val params: LayoutParams = dialog!!.window!!.attributes
+        params.width = LayoutParams.MATCH_PARENT
+        params.height = LayoutParams.WRAP_CONTENT
+        dialog!!.window!!.attributes = params as WindowManager.LayoutParams
     }
 
 
