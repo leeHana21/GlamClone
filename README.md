@@ -14,8 +14,7 @@
 > 의존성 관리를 위해 사용하였습니다
 
 # Pattern
-> MVVM
-> ViewModel과 LiveData를 통해 UI 변경을 처리하였습니다.
+> MVVM 패턴을 이용하여 ViewModel과 LiveData를 통해 UI 변경을 처리하였습니다.
 
 # ScreenShots
 ![glam_clone_screenshots](https://user-images.githubusercontent.com/49216939/154889744-2241dc29-acbf-416a-a9f9-b2454fc9024c.jpg)
